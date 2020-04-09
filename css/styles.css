@@ -1,0 +1,195 @@
+/*color palatte: #07689f, #a2d5f2, #fafafa, #ff7e67, #769fcd*/
+/*title:'Bree Serif', serif; 
+  body-text:'Cairo', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cairo&display=swap');
+
+/*default size page css*/
+body{
+    line-height: 1.4;
+    font-size:0.75rem;
+}
+
+/*header default screen size css*/
+.header{
+    background-color:#07689f;
+    padding-top:5%;
+    padding-bottom:3%;
+    text-align: center;
+}
+.header i{
+    font-size:120px;
+    color:#ff7e67;
+}
+.header h2{
+    font-family:'Bree Serif', serif;
+    color:#fafafa;
+}
+.header h3{
+    font-family:'Cairo', sans-serif;
+    color:#fafafa;
+}
+
+.banner{
+    display:none;
+}
+
+/*navigation default screen size css*/
+.navigation{
+    display:flex;
+    justify-content: space-around;
+    list-style:none;
+    background-color:#a2d5f2;
+    padding:2%;
+    margin-bottom: 0;
+}
+.navigation a{
+    font-family:'Cairo', sans-serif; 
+    text-decoration: none;
+    color:#07689f;
+}
+.navigation a:hover{
+    color:#ff7e67;
+    text-decoration: none;
+}
+
+
+/*homepage container defaulte screen css*/
+.homepage-content h1{
+    font-family:'Bree Serif', serif;
+    text-align: center;
+}
+.homepage-img{
+    padding-left:6%;
+}
+figcaption{
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.homepage-content p{
+    font-family: 'Cairo', sans-serif;
+    padding-left:6%;
+    padding-right:6%;
+}
+/*footer default screen size css*/
+.box{
+    background-color: #a2d5f2;
+}
+.footer-contact{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-size:0.75rem;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    padding-left:2%;
+    padding-bottom:2%;
+    margin-bottom:0;
+    list-style: none;
+}
+.social-icons i{
+    font-size:30px;
+    color:#07689f;
+}
+
+/*portfolio page default size screen css*/
+h1{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+/*tablet size css*/
+@media screen and (min-width:35rem){
+    body{
+        font-size:1rem;
+        line-height:1.5;
+    }
+/*navigation tablet size css*/
+    .navigation a{
+        font-size:1rem;
+    }
+/*homepage content tablet view*/
+    .homepage-img{
+        padding-left:15%;
+        padding-right:10%;
+        padding-top:7%;
+        width:100%;
+        margin:0;
+    }
+    figure{
+        float:left;
+        width:40%;
+    }
+    .figcaption{
+        text-align: center;
+    }
+    .homepage-content p{
+        padding-top:2%;
+    }
+/*footer contact tablet size view*/
+    .footer-contact{
+    font-size:1rem;
+}
+}
+
+/*desktop view css design*/
+@media screen and (min-width:80rem){
+    body{
+        line-height: 1.6;
+        font-size:1.25rem;
+    }
+    .header{
+        padding-top:2%;
+        padding-bottom:2%;
+    }
+    .header i{
+        font-size:30px;
+    }
+    .header h2{
+        display:none;
+    }
+    .header h3{
+        display:none;
+    }
+    .banner{
+        display: initial;
+        height:70%;
+    }
+/*buttons desktop view css*/
+    .navigation a{
+        font-size:1.25rem;
+    }
+/*homepage content desktop view*/
+    .homepage-content h1{
+        text-align: left;
+    }
+    .homepage-img{
+        width:80%;
+    }
+    figcaption{
+        text-align: center;
+    }
+    .homepage-content p{
+        padding-bottom:2%;
+        word-wrap:break-word;
+    }
+/*footer contact tablet size view*/
+    .footer-contact{
+        font-size:1.25rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
